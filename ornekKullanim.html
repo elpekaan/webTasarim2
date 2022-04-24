@@ -1,0 +1,493 @@
+<!--Main Navigation-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+<body id="body-pd">
+  <header class="header" id="header">
+    <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
+  </header>
+  <div class="l-navbar" id="nav-bar">
+    <nav class="nav">
+      <div> <a href="index.html" class="nav_logo"> <i class='bx bx-layer nav_logo-icon'></i> <span
+            class="nav_logo-name">Kaan Alp Elpe</span> </a>
+        <div class="nav_list">
+          <a href="hakkinda.html" class="nav_link "> <i class='bx bx-user nav_icon'></i> <span
+              class="nav_name">Hakkında</span>
+          </a> <a href="tanitim.html" class="nav_link"> <i class='bx bx-message-square-detail nav_icon'></i> <span
+              class="nav_name">zdgc</span> </a>
+          <a href="kurulum.html" class="nav_link"> <i class='bx bx-grid-alt nav_icon'></i> <span
+              class="nav_name">Kurulum</span> </a>
+          <a href="ornekKullanim.html" class="nav_link active"> <i class='bx bx-bookmark nav_icon'></i> <span
+              class="nav_name">Örnek Kullanım</span> </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--Container Main start-->
+  <div class="height-200 bg-light">
+    <h1>Örnek Kullanım</h1>
+    <h3>Instagram Navbar Örneği</h3>
+
+  </div>
+  <img class="img-fluid mt-3" src="instagram_examples.png" alt="instagram_examples">
+  <div class="text-sm-start text-md-start text-lg-start text-xl-start "></div>
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          HTML
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <xmp>
+            <div class="navigation">
+              <div class="logo">
+                <a class="no-underline" href="#">
+                  MimoudiX
+                </a>
+              </div>
+              <div class="navigation-search-container">
+                <i class="fa fa-search"></i>
+                <input class="search-field" type="text" placeholder="Search">
+                <div class="search-container">
+                  <div class="search-container-box">
+                    <div class="search-results">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="navigation-icons">
+                <a href="https://instagram.com/mimoudix" target="_blank" class="navigation-link">
+                  <i class="far fa-compass"></i>
+                </a>
+                <a class="navigation-link notifica">
+                  <i class="far fa-heart">
+                    <div class="notification-bubble-wrapper">
+                      <div class="notification-bubble">
+                        <span class="notifications-count">99</span>
+                      </div>
+                    </div>
+                  </i>
+                </a>
+                <a href="https://instagram.com/mimoudix" class="navigation-link">
+                  <i class="far fa-user-circle"></i>
+                </a>
+                <a href="https://instagram.com/mimoudix" id="signout" class="navigation-link">
+                  <i class="fas fa-sign-out-alt"></i>
+                </a>
+              </div>
+            </div>
+          </xmp>
+        </div>
+
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          CSS
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <xmp>
+            @import url('//fonts.cdnfonts.com/css/billabong');
+            body {
+            background: #fafafa;
+            }
+
+            /* start header */
+
+            .navigation {
+            background-color: #ffffff;
+            height: 80px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 0px 50px;
+            box-sizing: border-box;
+            z-index: 2;
+            /* animation magic */
+            transition: all 0.4s ease-in-out;
+            -webkit-transition: all 0.4s ease-in-out;
+            -moz-transition: all 0.4s ease-in-out;
+            }
+
+            .shrink {
+            height: 50px;
+            }
+
+            .navigation .logo a {
+            position: relative;
+            color: #000000;
+            font-size: 30px;
+            font-family: "billabong", sans-serif;
+            text-decoration: none;
+            }
+
+            .navigation-search-container {
+            position: relative;
+            }
+
+            .navigation-search-container input {
+            background-color: #fafafa;
+            padding: 3px 20px;
+            padding-left: 25px;
+            height: 30px;
+            box-sizing: border-box;
+            border: 1px solid rgba(0, 0, 0, 0.0975);
+            border-radius: 3px;
+            font-size: 14px;
+            }
+
+            .navigation-search-container .fa-search {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 11px;
+            color: rgba(0, 0, 0, 0.5);
+            }
+
+            @media only screen and (min-width: 320px) and (max-width: 650px) {
+            /* Navigation */
+            .navigation {
+            padding: 0 20px;
+            justify-content: space-between;
+            }
+            .navigation-search-container {
+            display: none;
+            }
+            .navigation-icons {
+            display: flex;
+            }
+            }
+
+            .navigation-icons {
+            display: flex;
+            }
+
+            .navigation-search-container input:focus {
+            outline: none;
+            }
+
+            .navigation-search-container input::placeholder {
+            text-align: center;
+            }
+
+            .navigation-icons a {
+            text-decoration: none;
+            }
+
+            .navigation-link i {
+            margin-left: 30px;
+            color: black;
+            text-decoration: none;
+            font-size: 22px;
+            }
+
+            .notification-bubble-wrapper {
+            position: relative;
+            top: -30px;
+            left: 17px;
+            }
+
+            .notification-bubble {
+            position: absolute;
+            min-width: 20px;
+            min-height: 20px;
+            border-radius: 50%;
+            background: #ff2c74;
+            color: #fff;
+            text-align: center;
+            font-size: 13px;
+            padding: 5px 5px 3px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+            Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+            font-weight: 500;
+            display: none;
+            }
+
+            /* end header */
+
+          </xmp>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          JS
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <xmp>
+            // double click on the heart icon
+            $(".fa-heart").dblclick(function () {
+            $(".notification-bubble").show(400);
+            });
+
+            $(document).on("scroll", function () {
+            if ($(document).scrollTop() > 50) {
+            $(".navigation").addClass("shrink");
+            } else {
+            $(".navigation").removeClass("shrink");
+            }
+            });
+          </xmp>
+        </div>
+      </div>
+    </div>
+    <h3>Facebook Navbar Örneği</h3>
+    <img class="img-fluid" src="facebook_examples.png" alt="facebook_examples">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-heading1">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+            HTML
+          </button>
+        </h2>
+        <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <xmp>
+              <header>
+                <nav>
+                  <ul>
+                    <li> <a href="#" id="fb"> <i class="fab fa-facebook-f    "></i> </a> </li>
+                    <li> <button id="search_btn" class="tooltip" data-tooltip="Search"> <i
+                          class="fas fa-search    "></i> </button> </li>
+
+                    <li id="space2"></li>
+
+                    <li> <a class="tooltip active" data-tooltip="Home" href="#" id="home"> <i
+                          class="fas fa-home    "></i> </a> </li>
+                    <li> <a class="tooltip" data-tooltip="Group" href="#" id="group"> <i
+                          class="fas fa-user-friends    "></i> </a></li>
+                    <li> <a class="tooltip" data-tooltip="Watch" href="#" id="tv"> <i class="fas fa-tv    "></i> </a>
+                    </li>
+                    <li> <a class="tooltip" data-tooltip="Friend" href="#" id="friend"> <i
+                          class="fas fa-user-alt    "></i> </a> </li>
+                    <li id="space1"></li>
+                    <li> <button class="tooltip" data-tooltip="Add" id="btn_plus"><i
+                          class="fas fa-plus    "></i></button> </li>
+                    <li> <button class="tooltip" data-tooltip="Message" id="btn_msg"><i
+                          class="fab fa-facebook-messenger    "></i></button></li>
+                    <li> <button class="tooltip" data-tooltip="Notification" id="btn_bell"> <i
+                          class="fas fa-bell    "></i></button></li>
+                    <li> <button class="tooltip" data-tooltip="Profile" id="btn_profile"><i
+                          class="fas fa-user-cog    "></i></button> </li>
+                  </ul>
+                </nav>
+              </header>
+            </xmp>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-heading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+            CSS
+          </button>
+        </h2>
+        <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <xmp>
+              *{
+              box-sizing: border-box;
+              }
+              :root{
+              --btn-width-100: 100px;
+              }
+              body{
+              margin: 0;
+              padding: 0;
+              }
+              nav{
+              margin: 0;
+              padding: 0;
+              }
+              nav ul {
+              margin: 0;
+              padding: 8px 15px;
+              list-style: none;
+              display: flex;
+              box-shadow: 0 1px 8px rgba(0,0,0,0.3);
+              }
+              nav ul li {
+              padding: 3px;
+              }
+              nav ul li a{
+              display: inline-block;
+              text-decoration: none;
+              }
+              nav ul li #fb{
+              background: #0B84ED;
+              color: #fff;
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 2rem;
+              }
+              nav ul li #search_btn{
+              border: none;
+              outline: none;
+              background: rgba(0, 0, 0, 0.068);
+              padding: 8px;
+              color: #888;
+              width: 40px;
+              height: 40px;
+              font-size: 1rem;
+              border-radius: 50%;
+              cursor: pointer;
+
+              }
+              nav ul li#space1{
+              flex: 1;
+              }
+              nav ul li#space2{
+              flex: 2;
+              }
+              nav ul li a{
+              height: 40px;
+              width: var(--btn-width-100);
+              font-size: 1.5rem;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: rgb(158, 158, 158);
+              transition: .5s;
+
+              }
+              nav ul li #btn_plus,
+              nav ul li #btn_msg,
+              nav ul li #btn_bell,
+              nav ul li #btn_profile{
+              height: 40px;
+              width: 40px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 1rem;
+              color: #444;
+              background: rgba(0, 0, 0, 0.068);
+              border: none;
+              outline: none;
+              border-radius: 50%;
+              cursor: pointer;
+              }
+
+
+              nav ul li:hover #home,
+              nav ul li:hover #group,
+              nav ul li:hover #tv,
+              nav ul li:hover #friend{
+              background: rgba(0, 0, 0, 0.138);
+              color: #444;
+              border-radius: 5px;
+
+              }
+
+
+
+              .active{
+              color: #0B84ED!important;
+              }
+
+              .tooltip{
+              position: relative;
+              }
+              .tooltip::after{
+              content: attr(data-tooltip);
+              height: 30px;
+              background: rgba(0,0,0,0.4);
+              color: #fff;
+              font-size: 1rem;
+              text-align: center;
+              position: absolute;
+              bottom: -150%;
+              padding: 5px 12px;
+              line-height: 30px;
+              border-radius: 3px;
+              opacity: 0;
+              transition: .3s;
+              pointer-events: none;
+              user-select: none;
+              }
+              .tooltip:hover::after{
+              opacity: 1;
+              }
+              nav ul li #btn_profile::after{
+              margin-left: -20px;
+              }
+
+
+              @media screen and (max-width: 700px){
+              nav ul li#space1,
+              nav ul li#space2{
+              display: none;
+              }
+              nav ul{
+              min-width: 600px;
+              padding: 8px 12px;
+              justify-content: space-between;
+              }
+              :root{
+              --btn-width-100: 60px;
+              }
+              }
+
+            </xmp>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-heading3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+            JS
+          </button>
+        </h2>
+        <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Kullanılmıyor.</div>
+        </div>
+      </div>
+    </div>
+    <!--Container Main end-->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
