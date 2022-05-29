@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/reactShopping/static/css/main.05041c8b.chunk.css",
-    "main.js": "/reactShopping/static/js/main.674e6955.chunk.js",
-    "main.js.map": "/reactShopping/static/js/main.674e6955.chunk.js.map",
-    "runtime-main.js": "/reactShopping/static/js/runtime-main.b4a44106.js",
-    "runtime-main.js.map": "/reactShopping/static/js/runtime-main.b4a44106.js.map",
-    "static/js/2.faed46da.chunk.js": "/reactShopping/static/js/2.faed46da.chunk.js",
-    "static/js/2.faed46da.chunk.js.map": "/reactShopping/static/js/2.faed46da.chunk.js.map",
-    "static/js/3.1c5a01df.chunk.js": "/reactShopping/static/js/3.1c5a01df.chunk.js",
-    "static/js/3.1c5a01df.chunk.js.map": "/reactShopping/static/js/3.1c5a01df.chunk.js.map",
-    "index.html": "/reactShopping/index.html",
-    "static/css/main.05041c8b.chunk.css.map": "/reactShopping/static/css/main.05041c8b.chunk.css.map",
-    "static/js/2.faed46da.chunk.js.LICENSE.txt": "/reactShopping/static/js/2.faed46da.chunk.js.LICENSE.txt"
+    "main.css": "/react-alisveris-sepeti/static/css/main.05041c8b.chunk.css",
+    "main.js": "/react-alisveris-sepeti/static/js/main.d12cac7a.chunk.js",
+    "main.js.map": "/react-alisveris-sepeti/static/js/main.d12cac7a.chunk.js.map",
+    "runtime-main.js": "/react-alisveris-sepeti/static/js/runtime-main.f1bb3f04.js",
+    "runtime-main.js.map": "/react-alisveris-sepeti/static/js/runtime-main.f1bb3f04.js.map",
+    "static/js/2.f86b94c3.chunk.js": "/react-alisveris-sepeti/static/js/2.f86b94c3.chunk.js",
+    "static/js/2.f86b94c3.chunk.js.map": "/react-alisveris-sepeti/static/js/2.f86b94c3.chunk.js.map",
+    "static/js/3.d2e176b9.chunk.js": "/react-alisveris-sepeti/static/js/3.d2e176b9.chunk.js",
+    "static/js/3.d2e176b9.chunk.js.map": "/react-alisveris-sepeti/static/js/3.d2e176b9.chunk.js.map",
+    "index.html": "/react-alisveris-sepeti/index.html",
+    "static/css/main.05041c8b.chunk.css.map": "/react-alisveris-sepeti/static/css/main.05041c8b.chunk.css.map",
+    "static/js/2.f86b94c3.chunk.js.LICENSE.txt": "/react-alisveris-sepeti/static/js/2.f86b94c3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b4a44106.js",
-    "static/js/2.faed46da.chunk.js",
+    "static/js/runtime-main.f1bb3f04.js",
+    "static/js/2.f86b94c3.chunk.js",
     "static/css/main.05041c8b.chunk.css",
-    "static/js/main.674e6955.chunk.js"
+    "static/js/main.d12cac7a.chunk.js"
   ]
 }
